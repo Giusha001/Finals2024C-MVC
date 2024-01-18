@@ -14,7 +14,7 @@ namespace Finals2024.Controllers
     [Authorize]
     public class TeachersController : Controller
     {
-        private demo_dbEntities db = new demo_dbEntities();
+        private Entities db = new Entities();
 
         // GET: Teachers
         public ActionResult Index()

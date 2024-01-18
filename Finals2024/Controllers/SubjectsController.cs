@@ -13,7 +13,7 @@ namespace Finals2024.Controllers
     [Authorize]
     public class SubjectsController : Controller
     {
-        private demo_dbEntities db = new demo_dbEntities();
+        private Entities db = new Entities();
 
         // GET: Subjects
         public ActionResult Index()

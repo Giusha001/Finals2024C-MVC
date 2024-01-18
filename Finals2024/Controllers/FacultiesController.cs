@@ -12,7 +12,7 @@ namespace Finals2024.Controllers
 {
     public class FacultiesController : Controller
     {
-        private demo_dbEntities db = new demo_dbEntities();
+        private Entities db = new Entities();
 
         // GET: Faculties
         public ActionResult Index()
